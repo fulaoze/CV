@@ -1,0 +1,45 @@
+batch_size: 256
+experiment_name: ExpPose_single_encoder_vox_recon_decay_with_noise_facefree_ori_test_351_lr_0.01_300
+#experiment_name: simclr_flip_test_801_use_exp
+root: D:\rafdb_dataset\Image\aligned\aligned
+train: D:\rafdb_dataset\EmoLabel\train_list.txt
+val: D:\rafdb_dataset\EmoLabel\test_list.txt
+test: D:\rafdb_dataset\EmoLabel\test_list.txt
+#train: /data/yuanyuan/wwb/dataset/RAFDB/img/average_train_list.txt
+#val: /data/yuanyuan/wwb/dataset/RAFDB/img/average_test_list.txt
+#test: /data/yuanyuan/wwb/dataset/RAFDB/img/average_test_list.txt
+gpu_ids: '1'
+dataset: 'RAFDB' # BU3D or RAFDB
+start_epochs: 0
+neg_alpha: 1.6
+pose_alpha: 0.1
+wd: 1.0e-3
+T: 0.07
+num_threads: 3
+save_epoch: 100
+dim: 512
+#linear_dim: 512
+linear_dim: 6272
+checkpoint_dir: ./checkpoints
+epochs: 6000
+continue_train: False
+eval: True
+eval_mode: 'exp' # 'exp' or 'pose' or 'face_cycle'
+eval_epochs: 300
+seed: 3456
+log_path: ./logs
+model_name: exppose # 小写
+dataset_name: lineardb # 小写
+img_size: 100  # train 64 eval 100
+lr: 1.0e-4
+print_img: 50
+print_loss : 20
+load_model: D:\Download\QQ\self_sup\checkpoints\ExpPose_single_encoder_vox_decay_recon\801.pth
+#load_model: D:/组内学习/课题组/self_sup/checkpoints/ExpPose_single_encoder_vox_decay_recon/801.pth # None
+#load_model: /data/yuanyuan/wwb/self_sup/checkpoints/ExpPose_single_encoder_vox_recon_decay_new_no_pose_alpha_resnet34/801.pth
+#load_model: /data/yuanyuan/wwb/self_sup/checkpoints/ExpPose_RAFDB/1001.pth
+save_img_dir: ./save_img
+save_img: False
+print_network: False
+classes_num: 7
+linear_lr: 1.0e-2

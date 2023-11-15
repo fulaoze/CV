@@ -1,0 +1,24 @@
+certifi==2021.10.8
+charset-normalizer==2.0.9
+click==8.0.3
+dlib==19.22.99
+face-recognition==1.3.0
+face-recognition-models==0.3.0
+facenet-pytorch==2.5.2
+idna==3.3
+importlib-metadata==4.8.2
+mkl-fft==1.3.1
+mkl-random==1.2.2
+mkl-service==2.4.0
+numpy @ file:///tmp/build/80754af9/numpy_and_numpy_base_1634106693478/work
+olefile @ file:///home/conda/feedstock_root/build_artifacts/olefile_1602866521163/work
+opencv-python==4.5.4.60
+Pillow==8.4.0
+requests==2.26.0
+six @ file:///home/conda/feedstock_root/build_artifacts/six_1620240208055/work
+torch==1.8.0
+torchaudio==0.8.0a0+a751e1d
+torchvision==0.9.0
+typing_extensions @ file:///home/conda/feedstock_root/build_artifacts/typing_extensions_1638334978229/work
+urllib3==1.26.7
+zipp==3.6.0
