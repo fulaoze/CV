@@ -23,6 +23,14 @@ pip install -r requirements.txt
 ## 2. Data Preparation
 
 You need to download the related datasets  and put in the folder which namely dataset.
+[VoxCeleb1、VoxCeleb2](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/)
+[FER-2013](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data)
+[RAF-DB](http://www.whdeng.cn/raf/model1.html)
+[LFW](https://vis-www.cs.umass.edu/lfw/)
+[CPLFW](http://www.whdeng.cn/CPLFW/index.html?reload=true)
+[DISFA] (http://mohammadmahoor.com/disfa/)
+[300W-LP](http://www.cbsr.ia.ac.cn/users/xiangyuzhu/projects/3DDFA/main.htm)
+[AFLW2000](http://www.cbsr.ia.ac.cn/users/xiangyuzhu/projects/3DDFA/main.htm)
 
 ## 3. Pre-trained Models
 
